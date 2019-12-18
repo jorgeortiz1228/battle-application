@@ -1,0 +1,152 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    font-family: Helvetica Neue, Helvetica, Arial;
+}
+
+.text-center {
+    text-align: center;
+}
+
+header {
+    height: 100px;
+    background-color: #ffc1cc;
+    text-align: center;
+    padding-top: 20px;
+    box-shadow: 3px 3px 3px #ccc;
+}
+
+header h1 {
+    font-size: 40px;
+    font-weight: bold;
+    color: #ff6781;
+    margin: 0;
+    vertical-align: middle;
+}
+
+.healthbar {
+    width: 80%;
+    height: 40px;
+    background-color: #eee;
+    margin: auto;
+    transition: width 500ms;
+}
+
+.controls, .log {
+    margin-top: 30px;
+    text-align: center;
+    padding: 10px;
+    border: 1px solid #ccc;
+    box-shadow: 0px 3px 6px #ccc;
+}
+
+.turn {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-weight: bold;
+    font-size: 22px;
+}
+
+.log ul {
+    list-style: none;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.log ul li {
+    margin: 5px;
+}
+
+.log ul .player-turn {
+    color: #d8d113;
+    background-color: #fff9c4;
+}
+
+.log ul .monster-turn {
+    color: #36b4d0;
+    background-color: #e7f9ff;
+}
+
+button {
+    font-size: 20px;
+    background-color: #eee;
+    padding: 12px;
+    box-shadow: 0 1px 1px black;
+    margin: 10px;
+}
+
+#start-game {
+    background-color: #ffc1cc;
+    color: #ff6781;
+}
+
+#start-game:hover,
+#start-game:active {
+    background-color: #ff6781;
+    color: white;
+}
+
+#start-game:focus {
+    outline: none;
+}
+
+#attack {
+    background-color: #e43825;
+    color: white;
+}
+
+#attack:hover,
+#attack:active {
+    background-color: #ff3f43;
+}
+
+#attack:focus {
+    outline: none;
+}
+
+#special-attack {
+    background-color: #8322a2;
+    color: white;
+}
+
+#special-attack:hover,
+#special-attack:active {
+    background-color: #d858ff;
+}
+
+#special-attack:focus {
+    outline: none;
+}
+
+#heal {
+    background-color: #54b610;
+    color: white;
+}
+
+#heal:hover,
+#heal:active {
+    background-color: #7edd41;
+}
+
+#heal:focus {
+    outline: none;
+}
+
+#give-up {
+    background-color: #ffc1cc;
+    color: #ff6781;
+}
+
+#give-up:hover,
+#give-up:active {
+    background-color: #ff6781;
+    color: white;
+}
+
+#give-up:focus {
+    outline: none;
+}
